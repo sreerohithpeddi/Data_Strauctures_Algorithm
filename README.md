@@ -1,11 +1,21 @@
 Contents : 📝
+
 Tree 🌳
+
 Arrays 🎰
+
 Mathematical 📏
+
 Linked List 🔗
+
 Hash Map 🔑
-Backtracking 🔚
+
+Backtracking 🔚 
+
 Stack 📚
+
 Queue 🚋🚋
+
 Bit_Magic 🔟
+
 Recursion 🌀
