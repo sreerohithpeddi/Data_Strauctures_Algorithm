@@ -1,17 +1,23 @@
-// Given a non-empty array of integers nums, every element appears twice except for one. Find that single one.
-
-// You must implement a solution with a linear runtime complexity and use only constant extra space.
-// Example 1:
-
-// Input: nums = [2,2,1]
-
-// Output: 1
-
-// Example 2:
-
-// Input: nums = [4,1,2,1,2]
-
-// Output: 4
+// Recap of Bit Manipulation
+/// x & 0 = 0       x & x = x
+/// x | 0 = 0       x | x = x
+/// x ^ 0 = x       x ^ x = 0
+/**
+ * nums = [2, 2, 4]
+ *
+ * result = 0
+ *
+ * 0000 ^ 0010 = 0010 (2)
+ * 0010 ^ 0010 = 0000 (0)
+ * 0000 ^ 0100 = 0100 (4)
+ *
+ * Answer = 4
+ *
+ * Intuition:
+ * Same numbers cancel each other.
+ *
+ 
+ */
 
 class Solution {
     public int singleNumber(int[] nums) {

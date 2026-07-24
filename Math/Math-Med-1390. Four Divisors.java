@@ -15,7 +15,7 @@ class Solution {
                 sum += temp;
             }
         }
-        return sum;
+        return sum;  // return sum of first four divisors sum
 
     }
 }
