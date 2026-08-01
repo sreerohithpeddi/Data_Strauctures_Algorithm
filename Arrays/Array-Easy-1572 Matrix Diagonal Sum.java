@@ -23,9 +23,9 @@ class Solution {
         int sum = 0;
         int n = mat[0].length;
         for(int i=0;i<n;i++){
-            sum += mat[i][i];
+            sum += mat[i][i];// left top to right bottom - diagnol
             if(i!=n-1-i){  // avoiding common values between mat[i][j] & mat[i][n-1-i]
-                sum += mat[i][n-1-i];
+                sum += mat[i][n-1-i];  // i++ & n-- combination makes right top to left bottom - diagnol
             }
         }
         return sum;
